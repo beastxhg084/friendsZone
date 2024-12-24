@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends Zone</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      background: #1e293b;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+    }
+
+    .main-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .main-buttons {
+      margin-top: 30px;
+    }
+
+    .main-buttons button {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: white;
+      background: #6a11cb;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .main-buttons button:hover {
+      background: #4e0fb7;
+      transform: scale(1.05);
+    }
+
+    .features {
+      padding: 50px 20px;
+      text-align: center;
+      background: #212b44;
+    }
+
+    .features h2 {
+      color: #6a11cb;
+    }
+
+    .features .feature-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .features .feature-item {
+      background: #2a3b5c;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 250px;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      color: white;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Friends Zone</h1>
+    <p>Your Hub for Entertainment and Connection</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="main-section">
+    <h2>Get Started</h2>
+    <p>Create a room or join an existing one to start connecting with friends.</p>
+    <div class="main-buttons">
+      <button>Create Room</button>
+      <button>Join Room</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Features</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <h3>Video Chat</h3>
+        <p>High-quality video calls to stay connected with friends.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Audio Chat</h3>
+        <p>Crystal-clear audio for uninterrupted conversations.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Share Room Links</h3>
+        <p>Instantly share room links for easy access.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Friends Zone. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
